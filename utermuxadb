@@ -96,7 +96,7 @@ for package in "${packages[@]}"; do
 done
 
 
-[ ! -f $PREFIX/bin/termux-adb-u ] && echo -e '#!/bin/bash\ncurl -s https://raw.githubusercontent.com/offici5l/termux-adb-fastboot/main/utermuxadb | bash' > $PREFIX/bin/termux-adb-u
+[ ! -f $PREFIX/bin/termux-adb-u ] && echo -e '#!/bin/bash\ncurl -s https://raw.githubusercontent.com/twozinGoat/termux-adb-fastboot/main/utermuxadb | bash' > $PREFIX/bin/termux-adb-u
 
 chmod +x $PREFIX/bin/termux-adb-u
 
