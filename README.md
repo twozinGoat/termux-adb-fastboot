@@ -6,9 +6,7 @@
 
 ### Installation
 
-1. Install [Termux & Termux-api](http://offici5l.github.io/d-termux.html)
-
-2. From Termux command line:
+From Termux command line:
 ```bash
-curl -s https://raw.githubusercontent.com/offici5l/termux-adb-fastboot/main/install | bash
+curl -s https://raw.githubusercontent.com/twozinGoat/termux-adb-fastboot/main/install | bash
 ```
